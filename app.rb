@@ -11,7 +11,7 @@ class App < Sinatra::Base
     (num.to_i ** 2).to_s
   end
   get '/say/:number/:phrase' do
-      
+    
   end
 
 get '/say/:word1/:word2/:word3/:word4/:word5' do
