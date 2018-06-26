@@ -23,4 +23,7 @@ class App < Sinatra::Base
     word4=params[:word4].to_i
     word5=params[:word5].to_i
   end
+
+
+  
 end
